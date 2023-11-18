@@ -28,3 +28,6 @@ def save_to_file(project_info):
         for key, value in project_info.items():
             file.write(f"{key}: {value}\n")
         file.write("\n")
+
+def read_a_file(project_id):
+    print("logic for reading a file");
